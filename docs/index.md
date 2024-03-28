@@ -1,6 +1,15 @@
-# Welcome to MkDocs
+---
+hide:
+ - navigation
+ - toc
+---
+<style>
+  .md-content__button {
+    display: none;
+  }
+</style>
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+# MAIN
 
 ## Commands
 
