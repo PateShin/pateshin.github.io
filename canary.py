@@ -6,7 +6,7 @@ from Crypto.Signature import eddsa
 from urllib.request import urlopen
 
 publickey = """-----BEGIN PUBLIC KEY-----
-MCowBQYDK2VwAyEAB4paAg3bW45QjmEBRA6yfp7EoLW+VEbNwPdSuSy/p1c=
+MCowBQYDK2VwAyEAjiWPMpSayCb+XKKmQdkHjSx/zbmohhGZcA5utuXOIQg=
 -----END PUBLIC KEY-----"""
 
 signature_url = 'http://127.0.0.1:8000/encryptcontent-plugin.json'

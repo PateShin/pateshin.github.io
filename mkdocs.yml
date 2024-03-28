@@ -1,5 +1,4 @@
 site_name: Study Bunker
-site_url: https://study-bunker.vercel.app/
 theme:
   name: material
   features:
@@ -65,7 +64,7 @@ plugins:
             password_button_text: 'ENTER'
             decryption_failure_message: 'Falscher Benutzer oder Passwort.'
             encryption_info_message: 'Legitimation erforderlich.'
-        html_template_path: "decrypt-form.tpl.html" # override default html template
+        html_template_path: "site/decrypt-form.tpl.html" # override default html template
         password_button: True
         input_class: 'w3-input' # CSS class used for input username and password
         button_class: 'w3-button w3-theme-l1 w3-hover-theme' # CSS class for password_button
@@ -86,7 +85,7 @@ plugins:
         #selfhost_dir: 'theme_override' # where to download crypto-js
         #reload_scripts:
         #  - '#theme'
-        password_file: 'passwords.yml'   # file with password inventory
+        password_file: 'site/password.yml'   # file with password inventory
         #kdf_pow: 4 # default for crypto-js: 4, default for webcrypto: 5
         sign_files: 'encryptcontent-plugin.json' # save ed25519 signatures here
         #hash_filenames: # add hash to file names of assets (to make them impossible to guess

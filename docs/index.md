@@ -1,16 +1,6 @@
-# MAIN
----
-hide:
- - navigation
- - toc
----
-<style>
-  .md-typeset h1,
-  .md-content__button {
-    display: none;
-  }
-</style>
+# Welcome to MkDocs
 
+For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Commands
 
