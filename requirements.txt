@@ -1,5 +1,0 @@
-mkdocs==1.5.2
-mkdocs-material==9.2.8
-mkdocs-search==1.3.0
-mkdocs-awesome-pages-plugin==2.7.0
-mkdocs-material-extensions==0.2.10
